@@ -9,7 +9,7 @@ namespace Conta_Banco
         public int Numero { get; private set; }
         public string Nome { get; set; }
         public static double Saldo { get; private set; }
-
+        public int e;
         //Contruto com  dois argumentos
         public Conta(int numero, string nome)
         {
